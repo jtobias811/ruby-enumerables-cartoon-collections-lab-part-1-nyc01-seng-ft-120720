@@ -1,11 +1,11 @@
 def greet_characters(array)
-  array.each do |character|
-    puts "Hello #{character}!"
+  array.each do |dwarves|
+    puts "Hello #{dwarves}!"
   end
 end
 
 def list_dwarves(array)
-  array.each_with_index do |character, index|
-    puts "Hello #{character}!"
+  array.each_with_index do |dwarves, index|
+    puts "Hello #{dwarves}!"
   end
 end
